@@ -48,7 +48,7 @@ The company has received recognition and awards from the AI research community f
 ### 📝 Demo
 
 <video width="700" height="450" controls>
-  <source src="https://paint-ai.earlyebes.repl.co/demo.mp4" type="video/mp4">
+  <source src="https://drive.google.com/file/d/1ZBenDEPTfY2ch5oHATvI01PlBt82Iwlr/view" type="video/mp4">
   Votre navigateur ne supporte pas la balise vidéo.
 </video>
 
