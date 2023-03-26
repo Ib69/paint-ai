@@ -49,7 +49,7 @@ The company has received recognition and awards from the AI research community f
 
 <img src="https://media.discordapp.net/attachments/1088881165999542424/1089635588510068767/Capture_decran_2023-03-26_a_21.41.16.png" width="500"/>
 
-**------------------------------------------------**
+**---------------------------------------------------------**
 
 <img src="https://media.discordapp.net/attachments/1088881165999542424/1089635588799483914/Capture_decran_2023-03-26_a_21.42.11.png" width="500"/>
 
