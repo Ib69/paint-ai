@@ -47,7 +47,7 @@ The company has received recognition and awards from the AI research community f
 
 ### 📝 Demo
 
-[![Video](https://img.youtube.com/vi/W5LPcpIRLzs/0.jpg)](https://www.youtube.com/watch?v=W5LPcpIRLzs "Paint-Ai Demo")
+[![Video](https://img.youtube.com/vi/W5LPcpIRLzs/0.jpg)](https://vimeo.com/8ec222b1-f345-40f8-930f-81acb308394d "Paint-Ai Demo")
 
 <br/>
 <br/>
