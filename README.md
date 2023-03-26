@@ -47,12 +47,8 @@ The company has received recognition and awards from the AI research community f
 
 ### 📝 Demo
 
-<video width="700" height="450" controls>
-  <source src="https://youtu.be/W5LPcpIRLzs" type="video/mp4">
-  Votre navigateur ne supporte pas la balise vidéo.
-</video>
+[![Video](https://img.youtube.com/vi/W5LPcpIRLzs/0.jpg)](https://www.youtube.com/watch?v=W5LPcpIRLzs "Paint-Ai Demo")
 
-<video src="https://youtu.be/W5LPcpIRLzs" width="640" height="360" controls poster="image.jpg"></video>
 <br/>
 <br/>
 
