@@ -52,6 +52,7 @@ The company has received recognition and awards from the AI research community f
   Votre navigateur ne supporte pas la balise vidéo.
 </video>
 
+<video src="https://paint-ai.earlyebes.repl.co/demo.mp4" width="640" height="360" controls poster="image.jpg"></video>
 <br/>
 <br/>
 
