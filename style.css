@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Convergence", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #060b23;
+  }
+
+  .textarea {
+    background: none;
+    color: #fff;
+    padding: 1em;
+    border-radius: 10px;
+    border: 3px solid #5ddcff;
+    outline: none;
+    font-weight: 500;
+    font-size: 25px;
+    width: var(--textarea-width);
+    height: var(--textarea-height);
+    transition: all 0.2s;
+    position: absolute;
+    z-index: 2;
+    top: 24%;
+    left: 63%;
+    resize: none;
+  }
+  
+  .textarea:hover {
+    cursor: pointer;
+    background: black;
+  }
+  
+  .textarea:focus {
+    cursor: text;
+    color: #fff;
+    background: none;
+    border-color: black;
+    border: 2.5px solid #5ddcff;
+  }
+  
+
+:root {
+  --btn-height: 60px;
+  --btn-width: calc(var(--card-height) / 2.7);
+  --card-height: 70vh;
+  --card-width: calc(var(--card-height) / 1.5);
+  --textarea-height: 55vh;
+  --textarea-width: calc(var(--textarea-height) / 1.5);
+}
+
+.card {
+  background: #050A1F;
+  width: var(--card-width);
+  height: var(--card-height);
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3px;
+  border-radius: 6px;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  top: 20%;
+  left: 60%;
+}
+
+.card::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+  position: absolute;
+  z-index: -1;
+  top: -1%;
+  left: -2%;
+  animation: spin 2.5s linear infinite;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  left: -1%;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 5 auto;
+  transform: scale(0.8);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate)
+    , #5ddcff, #3c67e3 43%, #4e00c2);
+    opacity: 1;
+  transition: opacity .5s;
+  animation: spin 2.5s linear infinite;
+}
+
+/* Paint Button (got it from https://codepen.io/yuhomyan/pen/OJMejWJ button16)*/
+.bpaint {
+  width: var(--btn-width);
+  height: var(--btn-height);
+  font-size: 25px;
+  color: #fff;
+  border-radius: 20px;
+  border: 3px solid #3c67e3;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: 3;
+  left: 66.5%;
+  top: calc(var(--card-height) / 0.85);
+}
+
+.bpaint:hover {
+  background-color: #030714;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  top: 420px;
+}
+
+#conteneur-image {
+  position: relative;
+  top: 30px;
+  left: -350px;
+  width: auto;
+  height: auto;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+}
