@@ -10,11 +10,11 @@
 <p align="center">
   <a href="#-setup">Setup</a>
   •
-  <a href="#-prerequisites">OpenAI</a>
+  <a href="#-openai">OpenAI</a>
   •
-  <a href="#-getting-started">Demo</a>
+  <a href="#-demo">Demo</a>
   •
-  <a href="#-features">Credits</a>
+  <a href="#-credits">Credits</a>
 
 </p>
 
